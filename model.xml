@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel>
+		<properties/>
+		<struct>
+			<alt abstract="true" mandatory="true" name="calculator">
+				<or name="INTEGER">
+					<feature name="INTEGER_SUM"/>
+					<feature name="INTEGER_SUB"/>
+					<feature name="INTEGER_MUL"/>
+					<feature name="INTEGER_DIV"/>
+				</or>
+				<or name="REAL">
+					<feature name="REAL_SUM"/>
+					<feature name="REAL_SUB"/>
+					<feature name="REAL_MUL"/>
+					<feature name="REAL_DIV"/>
+				</or>
+			</alt>
+		</struct>
+		<constraints/>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>

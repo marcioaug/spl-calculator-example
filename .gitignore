@@ -1,0 +1,6 @@
+.project
+.featureide/
+.cproject
+
+build/
+a.out
